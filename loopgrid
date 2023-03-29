@@ -1,0 +1,21 @@
+function setup() {
+  createCanvas(400, 400);
+  noLoop()
+}
+
+function draw() {
+  background(220);
+  for (let addCircleX=0; addCircleX<20; addCircleX++){
+  for (let addCircleY=0; addCircleY<20; addCircleY++){
+    addSprite(20,0,1)
+     
+  
+  
+  }
+}
+}
+function addSprite(x,y,size){
+  translate(x,y)
+  scale(size)
+ellipse (-10,10,20)
+}
